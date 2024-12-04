@@ -19,7 +19,7 @@ import time
 
 from ray import data
 
-
+# ADDED COMMENT FOR TEST PURPOSE
 # The first Parquet files contains around 110K files. We'll just take a subset for test purpose.
 
 # The REBUILD_EMBEDDINGS flag is used to re-populate the vector database without recomputing all the functions source code embeddings which is the most time consuming part.
